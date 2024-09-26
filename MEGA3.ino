@@ -39,7 +39,7 @@ void setup() {
   display.setCursor(25, 15);
   display.setTextSize(1);
   display.setTextColor(WHITE);
-  display.println(" NPK Sensor");
+  display.println("DEVICE");
   display.setCursor(25, 35);
   display.setTextSize(1);
   display.print("Initializing");
@@ -48,7 +48,7 @@ void setup() {
 }
  
 void loop() {
-  byte val1,val2,val3;
+  byte val1,val2,val3,val4;
   val1 = nitrogen();
   delay(250);
   val2 = phosphorous();
