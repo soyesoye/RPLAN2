@@ -70,7 +70,7 @@ void loop() {
   Serial.println(" mg/kg");
   Serial.print("Moisture: ");
   Serial.print(val4);
-  Serial.printIn(" %")
+  Serial.println(" %")
   delay(2000);
  
   display.clearDisplay();
